@@ -1,11 +1,11 @@
 <template>
     <div class="container">
-  <div class="row">
-   <img src= "https://thuthuzaposwayo.github.io/All-images/images/Me.jpeg" alt="logo" class="img-fluid w-75 shadow rounded-top" loading="lazy">
+  <div class="col">
+   <img src= "https://thuthuzaposwayo.github.io/All-images/images/Thutz1.jpg" alt="logo" class="img-fluid" id="me-image" loading="lazy">
   </div>
   <div class="col">
       <div id="details">
-          <h1 class="display-1">Thuthuza Poswayo</h1>
+          <h1 class="display-1 text-left font-weight-bold">Thuthuza Poswayo</h1>
           <p v-if="title"> I am a 
               <span>{{title}}</span>
           </p>
