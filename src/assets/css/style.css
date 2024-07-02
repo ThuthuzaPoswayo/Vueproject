@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(195, 183, 167)
+}
+
+
+
 /* Bootstrap icon*/
 
 /* Universal selector*/
@@ -16,9 +28,27 @@ img {
 
 /*logo*/
 img[ alt='logo']{
-    width: 5rem;
+        width: 10rem;
+    
+      
     
 }
+#me-image{
+    width: 25rem;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ margin-top: 30px;
+ margin-left: 30px;
+}
+
+
+
+
+
+
+
+
 /* wrapper*/
 :is(.wrapper){
   display: grid;
@@ -33,9 +63,15 @@ img[ alt='logo']{
     text-align: center;
     color: #2c3e50;
   }
+  .navbar-nav .nav-link,
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  
+}
   
   nav {
     padding: 30px;
+   background-color: beige;
   }
   
   nav a {
@@ -67,4 +103,9 @@ img[ alt='logo']{
       display: block;
       height: auto;
     }
+  }
+  #details {
+    font-family: Playfair Display;
+    text-align: right;
+    margin-top: 10%;
   }
