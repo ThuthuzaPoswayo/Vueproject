@@ -1,0 +1,70 @@
+/* Bootstrap icon*/
+
+/* Universal selector*/
+
+/* Custom variables */
+
+/* Select all images */
+
+
+img {
+
+    aspect-ratio: 1;
+    object-fit:cover;
+    object-fit: center;
+}
+
+/*logo*/
+img[ alt='logo']{
+    width: 5rem;
+    
+}
+/* wrapper*/
+:is(.wrapper){
+  display: grid;
+  grid-template-rows: auto minmax(100 dvh, 100%) auto;
+}
+/*app*/
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #42b983;
+  }
+
+  ::-webkit-scrollbar{
+    display:none;
+  }
+
+  section {
+    scroll-margin-block: 5rem
+  }
+
+#about img{
+  padding: 0
+  ;
+}
+
+
+/*media query*/
+  @media screen and (width < 800px) {
+    #landing .row {
+      display: block;
+      height: auto;
+    }
+  }
