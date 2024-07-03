@@ -5,10 +5,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(195, 183, 167)
+    /* background-color: rgb(195, 183, 167) */
 }
 
-
+.wrapper{
+   background-color: rgb(195, 183, 167)
+}
 
 /* Bootstrap icon*/
 
@@ -71,7 +73,7 @@ img[ alt='logo']{
   
   nav {
     padding: 30px;
-   background-color: beige;
+   background-color: rgb(237, 223, 207);
   }
   
   nav a {

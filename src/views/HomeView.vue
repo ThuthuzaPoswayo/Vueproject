@@ -2,11 +2,13 @@
   <div class="container">
     <div class="row">
       <LandingPage />
+      
     
    <section class="row" id="landing">
 
    </section>
    <section class="row" id="about">
+    <AboutMe />
 
    </section>
    <section class="row" id="resume">
@@ -27,12 +29,13 @@
 
 <script>
 import LandingPage from '@/components/LandingPage.vue'
-//import About from '@/components/'
+import AboutMe from '@/components/AboutMe.vue'
+
 export default {
   name: 'HomeView',
   components: {
     LandingPage,
-    //About
+    AboutMe,
   }
 }
 
