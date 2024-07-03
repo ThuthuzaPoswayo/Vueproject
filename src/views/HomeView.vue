@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="row">
-      <LandingPage />
+    
       
     
    <section class="row" id="landing">
-
+  <LandingPage />
    </section>
    <section class="row" id="about">
     <AboutMe />
