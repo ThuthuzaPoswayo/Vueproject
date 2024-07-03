@@ -27,7 +27,7 @@
   function repeat() {
       try{
           if(cnt.value == jobTitle.value?.length) cnt.value = 0;
-          title.value = jobTitle.value?.at(cnt.value)?.titel;
+          title.value = jobTitle.value?.at(cnt.value).occupation;
           setTimeout(repeat, 2000)
           cnt.value++
       } catch(e) {
