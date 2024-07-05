@@ -34,11 +34,12 @@ projects: null,
       state.skills = value
      },
      setTestimonials(state,value){
-      state.experience = value
+      state.testimonials = value
      },
      setprojects(state,value){
       state.projects = value
      },
+     
      
   },
   actions: {
@@ -83,7 +84,7 @@ projects: null,
         })
       }
     },
-    async fetchexperience(context) {
+    async fetchExperience(context) {
       try{
         let {experience} =  ( await axios.get(portfolioURL)).data
         context.commit("setExperience", experience)
