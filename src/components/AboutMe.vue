@@ -48,4 +48,12 @@ span{
     margin-bottom: 50px;
     font-weight: bold;
 }
+
+.container{
+    border: 5px solid bisque;
+    border-radius: 4rem;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 </style>

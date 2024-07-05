@@ -89,7 +89,7 @@ animation: neon-glow 1.5s ease-in-out infinite alternate;
   
 }
   
-  nav {
+  nav,footer {
     padding: 30px;
    background-color: rgb(237, 223, 207);
   }

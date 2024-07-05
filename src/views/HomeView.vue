@@ -1,56 +1,67 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-    
-      
-    
-   <section class="row" id="landing">
-  <LandingPage />
-   </section>
-
-   <section class="row" id="about">
-    <AboutMe />
-   </section>
-
-
-   <section class="row" id="resume">
-  <ResumeSection />
-   </section>
-
-   <section class="row" id="projects">
-  </section>
-   
-  <section class="row" id="testimonials">
-
-   </section>
-   <section class="row" id="reach me">
-    
-   </section>
-
-  
-    <!-- <section class= "row" id="education">
-      <ResumeSection />
-    </section>
-   
-    <section class =row id="experience">
-      <ResumeSection/>
-    </section> -->
+      <NavBar />
+    </div>
+    <div class="row">
+      <section class="row" id="landing">
+        <LandingPage />
+      </section>
+      <div class="row">
+        <section class="row" id="about">
+          <About />
+        </section>
+      </div>
+      <div class="row">
+        <section class="row" id="resume">
+          <Resume />
+        </section>
+      </div>
+      <div class="">
+        <section class="row" id="projects">
+          <Projects />
+        </section>
+      </div>
+      <div class="row">
+        <section class="row" id="testimonials">
+          <Testimonials />
+        </section>
+      </div>
+      <div class="row">
+        <section class="row" id="reach-me">
+          <ReachMe />
+        </section>
+      </div>
+      <div class="row">
+        <section id="footer">
+          <FooterComp />
+        </section>
+      </div>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
-import LandingPage from '@/components/LandingPage.vue'
-import AboutMe from '@/components/AboutMe.vue'
-import ResumeSection from '@/components/ResumeSection.vue'
+import NavBar from "@/components/NavBar.vue";
+import LandingPage from "@/components/LandingPage.vue";
+import About from "@/components/AboutMe.vue";
+import Projects from "@/components/ProjectsSection.vue";
+import Resume from "@/components/ResumeSection.vue";
+import Testimonials from "@/components/TestimonialSection.vue";
+import FooterComp from "@/components/Footer.vue";
+import ReachMe from "@/components/ReachMe.vue"
+
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
+    NavBar,
     LandingPage,
-    AboutMe,
-    ResumeSection
-  }
-}
-
-
+    About,
+    Projects,
+    Resume,
+    Testimonials,
+    FooterComp,
+    ReachMe
+  },
+};
 </script>

@@ -1,21 +1,15 @@
 <template>
   <div class="wrapper">
-   <NavBar />
-   <main class="container-fluid">
-     <router-view/>
-   </main>
-   <Footer />
+    <HomeView />
   </div>
-   
  </template>
  
  <script>
- import NavBar from '@/components/NavBar.vue'
- import Footer from '@/components/Footer.vue'
+ import HomeView from './views/HomeView.vue';
+
  export default {
    components: {
-     NavBar,
-     Footer
+     HomeView,
    }
  }
  </script>
